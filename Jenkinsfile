@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 sh 'ls -l'
-                sh 'python web_app.py'
+                sh 'python3 web_app.py'
             }
         }
     }
